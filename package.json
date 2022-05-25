@@ -40,7 +40,7 @@
     "space": true
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.0",
+    "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
