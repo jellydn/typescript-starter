@@ -18,6 +18,12 @@ yarn install
 yarn build
 ```
 
+## Example
+
+```sh
+yarn example
+```
+
 ## Run tests
 
 ```sh
