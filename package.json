@@ -40,7 +40,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@skypack/package-check": "0.2.2",
-    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@trivago/prettier-plugin-sort-imports": "3.3.0",
     "clean-pkg-json": "1.0.0",
     "husky": "8.0.1",
     "nano-staged": "0.8.0",
