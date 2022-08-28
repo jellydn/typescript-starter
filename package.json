@@ -53,7 +53,7 @@
     "typescript": "4.8.2",
     "vite": "3.0.9",
     "vitest": "0.22.1",
-    "xo": "0.51.0"
+    "xo": "0.52.2"
   },
   "nano-staged": {
     "*.{js,ts}": "xo --fix",
