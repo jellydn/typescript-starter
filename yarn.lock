@@ -1192,10 +1192,10 @@ ci-info@^3.2.0, ci-info@^3.3.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.3.0.tgz#b4ed1fb6818dea4803a55c623041f9165d2066b2"
   integrity sha512-riT/3vI5YpVH6/qomlDnJow6TBee2PBKSEpx3O32EGPYbWGIRsIlGRms3Sm74wYE1JMo8RnO04Hb12+v1J5ICw==
 
-clean-pkg-json@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.0.1.tgz#befcd83bea1d233b9484ba6e2ed203126588d466"
-  integrity sha512-nYn3fhWHmODwJ7J5hVlSkEuKxRbr9HbvZxR6OznQqor8+PBlzGeh7D5KONzM04MzO3iT6jKz5ta6HCNFU6YPTw==
+clean-pkg-json@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.2.0.tgz#f658e822db48ba13ed4d991e13c2f7821c2ca386"
+  integrity sha512-QHBWWOtpSCv5nfMFKwyxn4WMvkYE0msxj5xiqejYGqYepWVrK7O/om1Vn6nSl/WPtYn8ge9YmSCbTi1Hp8k+Hg==
 
 clean-regexp@^1.0.0:
   version "1.0.0"
