@@ -2,6 +2,10 @@
   "name": "typescript-starter",
   "version": "0.0.1",
   "description": "Typescript starter project",
+  "keywords": [
+    "typescript",
+    "starter"
+  ],
   "repository": "https://github.com/jellydn/typescript-starter",
   "license": "MIT",
   "author": "Huynh Duc Dung",
@@ -39,7 +43,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
-    "@skypack/package-check": "0.2.2",
+    "@skypack/package-check": "^0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
     "clean-pkg-json": "1.2.0",
     "husky": "8.0.2",

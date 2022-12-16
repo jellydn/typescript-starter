@@ -715,7 +715,7 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@skypack/package-check@0.2.2":
+"@skypack/package-check@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@skypack/package-check/-/package-check-0.2.2.tgz#92e1cb1864e7ed9aef9076f92a45fc285a0abef3"
   integrity sha512-T4Wyi9lUuz0a1C2OHuzqZ0aFOCI0AmaGTb2LP9sHgWdoHXlB3JU02gfBpa0Y081G/gFsJYpQ/R0iCJRzF/nknw==
