@@ -55,7 +55,7 @@
     "clean-pkg-json": "1.2.0",
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
-    "pkgroll": "2.1.0",
+    "pkgroll": "2.1.1",
     "prettier": "3.2.5",
     "sort-package-json": "2.10.0",
     "tsd": "0.31.0",
