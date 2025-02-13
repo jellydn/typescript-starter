@@ -825,14 +825,6 @@
     is-module "^1.0.0"
     resolve "^1.22.1"
 
-"@rollup/plugin-replace@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-6.0.2.tgz#2f565d312d681e4570ff376c55c5c08eb6f1908d"
-  integrity sha512-7QaYCf8bqF04dOy7w/eHmJeNExxTYwvKAmlSAH/EaWWUzbT0h5sbF6bktFoX/0F/0qwng5/dWFMyf3gzaM8DsQ==
-  dependencies:
-    "@rollup/pluginutils" "^5.0.1"
-    magic-string "^0.30.3"
-
 "@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.1.0", "@rollup/pluginutils@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.1.4.tgz#bb94f1f9eaaac944da237767cdfee6c5b2262d4a"
@@ -3956,10 +3948,10 @@ pkg-dir@^7.0.0:
   dependencies:
     find-up "^6.3.0"
 
-pkgroll@2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.8.2.tgz#7a909e334762555bdc7ad68c9d6a321600e3e228"
-  integrity sha512-YYLG7vV1PjF9B7UPB37m45QOvICSvLoh7MzKfgOshzE4S75YIN3UqOCGUpJ0fT+5WjqMQ0IF5rywiIW5xHcleQ==
+pkgroll@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.10.0.tgz#6cb2e487a9afa0fc749eea0b8436a9d6f1cca710"
+  integrity sha512-v9LPi6fXnbs6FeR67to3Q+LWSamBSKNYUGiXRYcetI41KVgv+ncxwNVyF9oT2mvhy8L2DjEWT2HmX3xxQXmwHg==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.2"
@@ -3967,11 +3959,10 @@ pkgroll@2.8.2:
     "@rollup/plugin-inject" "^5.0.5"
     "@rollup/plugin-json" "^6.1.0"
     "@rollup/plugin-node-resolve" "^16.0.0"
-    "@rollup/plugin-replace" "^6.0.2"
     "@rollup/pluginutils" "^5.1.4"
     esbuild "^0.24.2"
     magic-string "^0.30.17"
-    rollup "^4.29.1"
+    rollup "^4.34.6"
     rollup-pluginutils "^2.8.2"
 
 plur@^4.0.0:
@@ -4019,7 +4010,12 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.5.0, prettier@^3.4.2:
+prettier@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.1.tgz#22fac9d0b18c0b92055ac8fb619ac1c7bef02fb7"
+  integrity sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==
+
+prettier@^3.4.2:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.0.tgz#50325a28887c6dfdf2ca3f8eaba02b66a8429ca7"
   integrity sha512-quyMrVt6svPS7CjQ9gKb3GLEX/rl3BCL2oa/QkNcXv4YNVBC9olt3s+H7ukto06q7B1Qz46PbrKLO34PR6vXcA==
@@ -4192,7 +4188,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^4.20.0, rollup@^4.29.1, rollup@^4.30.1:
+rollup@^4.20.0, rollup@^4.30.1, rollup@^4.34.6:
   version "4.34.6"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-4.34.6.tgz#a07e4d2621759e29034d909655e7a32eee9195c9"
   integrity sha512-wc2cBWqJgkU3Iz5oztRkQbfVkbxoz5EhnCGOrnJvnLnQ7O0WhQUYyv18qQI79O8L7DdHrrlJNeCHd4VGpnaXKQ==
