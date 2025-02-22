@@ -3815,10 +3815,10 @@ pkg-dir@^7.0.0:
   dependencies:
     find-up "^6.3.0"
 
-pkgroll@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.10.0.tgz#6cb2e487a9afa0fc749eea0b8436a9d6f1cca710"
-  integrity sha512-v9LPi6fXnbs6FeR67to3Q+LWSamBSKNYUGiXRYcetI41KVgv+ncxwNVyF9oT2mvhy8L2DjEWT2HmX3xxQXmwHg==
+pkgroll@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.11.0.tgz#80eb96830c2e99cac3b119987b6ac335cc522d85"
+  integrity sha512-DcgZn6wGAIiGek81FcBohpwiYNmRqkzYSGsgOPznoPIcRl47Vv4dLhcaGGNHtQBK5iOgUjH1jlieWknzLsh1yg==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.2"
