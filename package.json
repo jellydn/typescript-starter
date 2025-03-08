@@ -52,7 +52,7 @@
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@vitest/ui": "3.0.8",
-    "clean-pkg-json": "1.2.0",
+    "clean-pkg-json": "1.2.1",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "pkgroll": "2.11.2",
