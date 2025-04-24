@@ -3606,10 +3606,10 @@ pkg-dir@^7.0.0:
   dependencies:
     find-up "^6.3.0"
 
-pkgroll@2.12.1:
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.12.1.tgz#17ef8e3fd42e10811829cf28fb0e4a97f79fc5f2"
-  integrity sha512-MpooedkVk28Sl1I5q8YO2QZmdlHdEtCzv1nReZdHNRhY0CzbZ14TewN47JopF+0rGCaQOERSPfcIOgPZDQXlZA==
+pkgroll@2.12.2:
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.12.2.tgz#a1dade15fb638f59bb8548a52b82d98be47668be"
+  integrity sha512-Vl1hJ6jQj6YY9xvhuH8qNVf4qEZng9qC5jfqUKIR4+k5HaGdt6TCXj3lI5uNs+Z3ljtdlwMigi5re1YyDDhVxA==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.2"
