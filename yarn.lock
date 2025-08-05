@@ -915,10 +915,10 @@
     javascript-natural-sort "^0.7.1"
     lodash "^4.17.21"
 
-"@tsd/typescript@~5.8.3":
-  version "5.8.3"
-  resolved "https://registry.yarnpkg.com/@tsd/typescript/-/typescript-5.8.3.tgz#ec20784da0e6c6dcbb2ec585f81cef4a02831840"
-  integrity sha512-oKarNCN1QUhG148M88mtZdOlBZWWGcInquef+U8QL7gwJkRuNo5WS45Fjsd+3hM9cDJWGpqSZ4Oo097KDx4IWA==
+"@tsd/typescript@^5.9.2":
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/@tsd/typescript/-/typescript-5.9.2.tgz#890c777abaa651e20f7c4f4782f06e81be6f9acb"
+  integrity sha512-mSMM0QtEPdMd+rdMDd17yCUYD4yI3pKHap89+jEZrZ3KIO5PhDofBjER0OtgHdvOXF74KMLO3fyD6k3Hz0v03A==
 
 "@tybys/wasm-util@^0.10.0":
   version "0.10.0"
@@ -3905,10 +3905,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.0.tgz#2462c53d4c96ee511c25df8db34b61a29eb84d46"
-  integrity sha512-decQDsHWE1BRVurrgxhJYtv0LncjynyMFGHMTCJiqd7gWO13u6JPM1GXzDjqx7LS9dd2C1xpmAW4S0VeGvC4Gg==
+pkgroll@2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.1.tgz#b1fe7f752b4cb012dabaef1dd067c262bc645596"
+  integrity sha512-nHBDDRzWT8KbugYIWPT5AahN1pUMg9Uxqlr3YiMmB0JRl91e1smspNN2k7aOMbjDbh7Q+mnE9JGjUiCeik/NQA==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
@@ -4689,12 +4689,12 @@ ts-declaration-location@^1.0.6:
   dependencies:
     picomatch "^4.0.2"
 
-tsd@0.32.0:
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.32.0.tgz#3e15b0f2ecf880cafe4de1cfaa52980cf767d743"
-  integrity sha512-R5lBZCbxGBowOcW0gpQaiIjGYrG5NmU+PfFDKcc3zbtzWjML1o/zAwzdDnS2ZheSlPu9GW51azpFqEPUBq9DoQ==
+tsd@0.33.0:
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.33.0.tgz#6e2abb4a43735dcb2fe9036f2b37b9680e463099"
+  integrity sha512-/PQtykJFVw90QICG7zyPDMIyueOXKL7jOJVoX5pILnb3Ux+7QqynOxfVvarE+K+yi7BZyOSY4r+OZNWSWRiEwQ==
   dependencies:
-    "@tsd/typescript" "~5.8.3"
+    "@tsd/typescript" "^5.9.2"
     eslint-formatter-pretty "^4.1.0"
     globby "^11.0.1"
     jest-diff "^29.0.3"
