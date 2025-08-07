@@ -3905,10 +3905,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.15.1:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.1.tgz#b1fe7f752b4cb012dabaef1dd067c262bc645596"
-  integrity sha512-nHBDDRzWT8KbugYIWPT5AahN1pUMg9Uxqlr3YiMmB0JRl91e1smspNN2k7aOMbjDbh7Q+mnE9JGjUiCeik/NQA==
+pkgroll@2.15.2:
+  version "2.15.2"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.2.tgz#511277d8d55ad36073321f1584d9abde6f1250ec"
+  integrity sha512-ustXTvesWAQLvllN+eL91fMj5vK8egk060xynHkWsUkToa9cPKyeMgf+xgHMkgHV8sdCS3kof9e/IlhUFxrz5w==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
