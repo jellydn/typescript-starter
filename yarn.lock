@@ -1598,6 +1598,11 @@ ci-info@^4.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-4.3.0.tgz#c39b1013f8fdbd28cd78e62318357d02da160cd7"
   integrity sha512-l+2bNRMiQgcfILUi33labAZYIWlH1kWDp+ecNo5iisRKrbm0xcRyCww71/YU0Fkw0mAFpz9bJayXPjey6vkmaQ==
 
+cjs-module-lexer@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-2.1.0.tgz#586e87d4341cb2661850ece5190232ccdebcff8b"
+  integrity sha512-UX0OwmYRYQQetfrLEZeewIFFI+wSTofC+pMBLNuH3RUuu/xzG1oz84UCEDOSoQlN3fZ4+AzmV50ZYvGqkMh9yA==
+
 clean-pkg-json@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.3.0.tgz#99f76e8b96bc14f60be3b8fbe11052173d3d2df2"
@@ -3905,10 +3910,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.15.2:
-  version "2.15.2"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.2.tgz#511277d8d55ad36073321f1584d9abde6f1250ec"
-  integrity sha512-ustXTvesWAQLvllN+eL91fMj5vK8egk060xynHkWsUkToa9cPKyeMgf+xgHMkgHV8sdCS3kof9e/IlhUFxrz5w==
+pkgroll@2.15.3:
+  version "2.15.3"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.3.tgz#1f5d720f44d5fe124b7c866c6d1d7d3c57eb8903"
+  integrity sha512-yEuitslh2Y2ZhH3eX61Y5gTCqxC9KDcQ4gmsjQWwtlk5R3/n8rlkPaxZFT7e4QybeAOonnlm8xlIM5HUk7Ok9Q==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
@@ -3917,6 +3922,7 @@ pkgroll@2.15.2:
     "@rollup/plugin-json" "^6.1.0"
     "@rollup/plugin-node-resolve" "^16.0.1"
     "@rollup/pluginutils" "^5.2.0"
+    cjs-module-lexer "^2.1.0"
     esbuild "^0.25.8"
     magic-string "^0.30.17"
     rollup "^4.46.2"
