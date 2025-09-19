@@ -3815,10 +3815,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.15.3:
-  version "2.15.3"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.3.tgz#1f5d720f44d5fe124b7c866c6d1d7d3c57eb8903"
-  integrity sha512-yEuitslh2Y2ZhH3eX61Y5gTCqxC9KDcQ4gmsjQWwtlk5R3/n8rlkPaxZFT7e4QybeAOonnlm8xlIM5HUk7Ok9Q==
+pkgroll@2.15.4:
+  version "2.15.4"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.4.tgz#6edb515a76b008587d71e3e377167bd2d0421716"
+  integrity sha512-oUAVVvFROzFiVhetJTvlcYYUh0EmxRF5CLTd2fDf5EX41G/Mg5I490TEOv6r1qGp8RBaYapTv8+daVot2SMmrg==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
@@ -4782,10 +4782,10 @@ vite-node@3.2.4:
     pathe "^2.0.3"
     vite "^5.0.0 || ^6.0.0 || ^7.0.0-0"
 
-vite@6.3.5:
-  version "6.3.5"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.5.tgz#fec73879013c9c0128c8d284504c6d19410d12a3"
-  integrity sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==
+vite@6.3.6:
+  version "6.3.6"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.6.tgz#69a976b64930750d40219fbc68c5200874d315c1"
+  integrity sha512-0msEVHJEScQbhkbVTb/4iHZdJ6SXp/AvxL2sjwYQFfBqleHtnCqv1J3sa9zbWz/6kW1m9Tfzn92vW+kZ1WV6QA==
   dependencies:
     esbuild "^0.25.0"
     fdir "^6.4.4"
