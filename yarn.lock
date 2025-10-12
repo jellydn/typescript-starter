@@ -3834,10 +3834,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.18.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.18.0.tgz#108af9dd168df75ab7f35eb7578b7597303c6793"
-  integrity sha512-e0kKoLRqb0gfq50axg5TSACRLfirE1I9KRaC7MEbzCWtSbIemaJ7eigtBiYkmbxcAEd25tF+MkYznqatuZZikw==
+pkgroll@2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.18.1.tgz#c38fba7d65d8842ca2393d2caff99d642c6f2b7a"
+  integrity sha512-5fXXV3Bvc0zvD3kwmPrqwJJ84kIB3RUV3VC9RHkQa2bcRLj4s2W/J0PkVL57VzlLlG+BeE09lFp0wr1ULBGQuQ==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
