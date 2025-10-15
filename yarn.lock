@@ -3834,10 +3834,10 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.18.1:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.18.1.tgz#c38fba7d65d8842ca2393d2caff99d642c6f2b7a"
-  integrity sha512-5fXXV3Bvc0zvD3kwmPrqwJJ84kIB3RUV3VC9RHkQa2bcRLj4s2W/J0PkVL57VzlLlG+BeE09lFp0wr1ULBGQuQ==
+pkgroll@2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.19.0.tgz#c3343e55add8fb67c3d5ba42c45c20473974a8d7"
+  integrity sha512-MDVRR0s/epE/zsj6TGty86z43Ll9BEzvgGZfrPXQQBM7ZRqydeG7E5uar4Q6flc0ywxsYrwE7kK5OSvBwAHuqA==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
@@ -3851,6 +3851,7 @@ pkgroll@2.18.1:
     magic-string "^0.30.17"
     rollup "^4.46.2"
     rollup-pluginutils "^2.8.2"
+    yaml "^2.8.1"
 
 plur@^4.0.0:
   version "4.0.0"
@@ -4801,10 +4802,10 @@ vite-node@3.2.4:
     pathe "^2.0.3"
     vite "^5.0.0 || ^6.0.0 || ^7.0.0-0"
 
-vite@6.3.7:
-  version "6.3.7"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.7.tgz#acc4ca1ca36389c4b02e1ef8451f2d43df503bd1"
-  integrity sha512-mQYaKepA0NGMBsz8Xktt3tJUG5ELE2iT7IJ+ssXI6nxVdE2sFc/d/6w/JByqMLvWg8hNKHpPgzjgOkrhpKFnrA==
+vite@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.4.0.tgz#cc26fce6fc4bb423b3a5e7bbeada7b3cf2d3ac9c"
+  integrity sha512-oLnWs9Hak/LOlKjeSpOwD6JMks8BeICEdYMJBf6P4Lac/pO9tKiv/XhXnAM7nNfSkZahjlCZu9sS50zL8fSnsw==
   dependencies:
     esbuild "^0.25.0"
     fdir "^6.4.4"
@@ -4993,6 +4994,11 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+yaml@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.1.tgz#1870aa02b631f7e8328b93f8bc574fac5d6c4d79"
+  integrity sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==
 
 yargs-parser@^20.2.3:
   version "20.2.9"
