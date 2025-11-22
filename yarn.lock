@@ -710,15 +710,15 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.29.tgz#5a40109a1ab5f84d6fd8fc928b19f367cbe7e7b1"
   integrity sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==
 
-"@rollup/plugin-alias@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.1.1.tgz#53601d88cda8b1577aa130b4a6e452283605bf26"
-  integrity sha512-PR9zDb+rOzkRb2VD+EuKB7UC41vU5DIwZ5qqCpk0KJudcWAyi8rvYOhS7+L5aZCspw1stTViLgN5v6FF1p5cgQ==
+"@rollup/plugin-alias@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-6.0.0.tgz#f7fa8c806db9c073baa6b00e4b1c396edef9beb2"
+  integrity sha512-tPCzJOtS7uuVZd+xPhoy5W4vThe6KWXNmsFCNktaAh5RTqcLiSfT4huPQIXkgJ6YCOjJHvecOAzQxLFhPxKr+g==
 
-"@rollup/plugin-commonjs@^28.0.9":
-  version "28.0.9"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-28.0.9.tgz#b875cd1590617a40c4916d561d75761c6ca3c6d1"
-  integrity sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==
+"@rollup/plugin-commonjs@^29.0.0":
+  version "29.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-29.0.0.tgz#42a6cc0eeb8ae7aabfc6f9bdc28fe22d65abd15a"
+  integrity sha512-U2YHaxR2cU/yAiwKJtJRhnyLk7cifnQw0zUpISsocBDoHDJn+HTV74ABqnwr5bEgWUwFZC9oFL6wLe21lHu5eQ==
   dependencies:
     "@rollup/pluginutils" "^5.0.1"
     commondir "^1.0.1"
@@ -4106,13 +4106,13 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.21.1:
-  version "2.21.1"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.21.1.tgz#38f9dcf182bb63a14ee10316e62a2583762f1efc"
-  integrity sha512-Gt7fgg84kbw9JCm9vKiKHEZUU5zmAEwkPjY6apqLtkzD2iG3cfVH0ThHDh4CFqGpwx4ww7wsMG8kc5bofFZaEA==
+pkgroll@2.21.3:
+  version "2.21.3"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.21.3.tgz#95e703febf4ba1934bd4336512ecaf0cd813f79a"
+  integrity sha512-cbvrfkyGTNn/U+RAk16SirVp6UxT4Cqv2tuQP7VlEGDCwOFTiLX1soMo+40S5F0h3R0Ml4QL3flZ/PQoApwOSQ==
   dependencies:
-    "@rollup/plugin-alias" "^5.1.1"
-    "@rollup/plugin-commonjs" "^28.0.9"
+    "@rollup/plugin-alias" "^6.0.0"
+    "@rollup/plugin-commonjs" "^29.0.0"
     "@rollup/plugin-dynamic-import-vars" "^2.1.5"
     "@rollup/plugin-inject" "^5.0.5"
     "@rollup/plugin-json" "^6.1.0"
