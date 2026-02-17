@@ -2014,12 +2014,12 @@ define-properties@^1.1.3, define-properties@^1.2.1:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
 
-detect-indent@^7.0.1:
+detect-indent@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-7.0.2.tgz#16c516bf75d4b2f759f68214554996d467c8d648"
   integrity sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==
 
-detect-newline@^4.0.0:
+detect-newline@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-4.0.1.tgz#fcefdb5713e1fb8cb2839b8b6ee22e6716ab8f23"
   integrity sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==
@@ -2945,10 +2945,10 @@ get-tsconfig@^4.10.1, get-tsconfig@^4.7.5, get-tsconfig@^4.8.1:
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
-git-hooks-list@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-3.2.0.tgz#ffe5d5895e29d24f930f9a98dd604b7e407d2f5f"
-  integrity sha512-ZHG9a1gEhUMX1TvGrLdyWb9kDopCBbTnI8z4JgRMYxsijWipgjSEYoPWqBuIB0DnRnvqlQSEeVmzpeuPm7NdFQ==
+git-hooks-list@^4.1.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-4.2.1.tgz#82b3ad119ec2da8a6d57228bd68d8e432afc418c"
+  integrity sha512-WNvqJjOxxs/8ZP9+DWdwWJ7cDsd60NHf39XnD82pDVrKO5q7xfPqpkK6hwEAmBa/ZSEE4IOoR75EzbbIuwGlMw==
 
 git-raw-commits@^4.0.0:
   version "4.0.0"
@@ -4620,24 +4620,23 @@ slash@^5.1.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-5.1.0.tgz#be3adddcdf09ac38eebe8dcdc7b1a57a75b095ce"
   integrity sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==
 
-sort-object-keys@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
-  integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
+sort-object-keys@^2.0.1:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-2.1.0.tgz#af24fbb7b91fcca945399a04fa900a10f9506242"
+  integrity sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g==
 
-sort-package-json@2.15.1:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.15.1.tgz#e5a035fad7da277b1947b9eecc93ea09c1c2526e"
-  integrity sha512-9x9+o8krTT2saA9liI4BljNjwAbvUnWf11Wq+i/iZt8nl2UGYnf3TH5uBydE7VALmP7AGwlfszuEeL8BDyb0YA==
+sort-package-json@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-3.6.1.tgz#901fe21d335af97d436383ac5b7c16c85cd3fac4"
+  integrity sha512-Chgejw1+10p2D0U2tB7au1lHtz6TkFnxmvZktyBCRyV0GgmF6nl1IxXxAsPtJVsUyg/fo+BfCMAVVFUVRkAHrQ==
   dependencies:
-    detect-indent "^7.0.1"
-    detect-newline "^4.0.0"
-    get-stdin "^9.0.0"
-    git-hooks-list "^3.0.0"
+    detect-indent "^7.0.2"
+    detect-newline "^4.0.1"
+    git-hooks-list "^4.1.1"
     is-plain-obj "^4.1.0"
-    semver "^7.6.0"
-    sort-object-keys "^1.1.3"
-    tinyglobby "^0.2.9"
+    semver "^7.7.3"
+    sort-object-keys "^2.0.1"
+    tinyglobby "^0.2.15"
 
 source-map-js@^1.2.1:
   version "1.2.1"
@@ -4883,7 +4882,7 @@ tinyexec@^1.0.0:
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.0.2.tgz#bdd2737fe2ba40bd6f918ae26642f264b99ca251"
   integrity sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==
 
-tinyglobby@^0.2.13, tinyglobby@^0.2.14, tinyglobby@^0.2.15, tinyglobby@^0.2.9:
+tinyglobby@^0.2.13, tinyglobby@^0.2.14, tinyglobby@^0.2.15:
   version "0.2.15"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.15.tgz#e228dd1e638cea993d2fdb4fcd2d4602a79951c2"
   integrity sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==
