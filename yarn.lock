@@ -974,7 +974,7 @@
   resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-6.0.0.tgz#f7fa8c806db9c073baa6b00e4b1c396edef9beb2"
   integrity sha512-tPCzJOtS7uuVZd+xPhoy5W4vThe6KWXNmsFCNktaAh5RTqcLiSfT4huPQIXkgJ6YCOjJHvecOAzQxLFhPxKr+g==
 
-"@rollup/plugin-commonjs@^29.0.0":
+"@rollup/plugin-commonjs@^29.0.1":
   version "29.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-29.0.2.tgz#d2d84c49d0983d071f2ab96f4cfe02fe80abd602"
   integrity sha512-S/ggWH1LU7jTyi9DxZOKyxpVd4hF/OZ0JrEbeLjXk/DFXwRny0tjD2c992zOUYQobLrVkRVMDdmHP16HKP7GRg==
@@ -4354,13 +4354,13 @@ pkg-dir@^8.0.0:
   dependencies:
     find-up-simple "^1.0.0"
 
-pkgroll@2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.27.0.tgz#998029a5e3c4e6cecfb125efbb8c1c765922d3f4"
-  integrity sha512-Huw5ZRxWTWeQ0PbNNKdbkAl52bPMy009RXdB4u3qjb47AMEBLG5VVF0V6oOD+YYiZaHaFxvjEeX+A2T9ckaClQ==
+pkgroll@2.27.1:
+  version "2.27.1"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.27.1.tgz#b1b644d62cf6d972a41af7632a08d8338b5a8524"
+  integrity sha512-Iqw4Y23NRoT3juVogTwzjd8YO1jFtxUlua0biQC0E79nIBbbKRGtQp0hf7lnscF0didwyRsXFLUcyD1ekeQmIA==
   dependencies:
     "@rollup/plugin-alias" "^6.0.0"
-    "@rollup/plugin-commonjs" "^29.0.0"
+    "@rollup/plugin-commonjs" "^29.0.1"
     "@rollup/plugin-dynamic-import-vars" "^2.1.5"
     "@rollup/plugin-json" "^6.1.0"
     "@rollup/plugin-node-resolve" "^16.0.3"
