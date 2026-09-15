@@ -63,7 +63,7 @@
     "typescript": "5.9.3",
     "vite": "8.3.0",
     "vitest": "3.2.7",
-    "xo": "0.61.1"
+    "xo": "4.0.0"
   },
   "packageManager": "yarn@1.22.22",
   "tsd": {
