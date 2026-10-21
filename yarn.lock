@@ -4138,7 +4138,7 @@ possible-typed-array-names@^1.0.0, possible-typed-array-names@^1.1.0:
   resolved "https://registry.yarnpkg.com/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz#93e3582bc0e5426586d9d07b79ee40fc841de4ae"
   integrity sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==
 
-postcss@^8.5.29, postcss@^8.5.6:
+postcss@^8.5.30, postcss@^8.5.6:
   version "8.5.31"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.31.tgz#d44731fa02f8ae8371629ec7220e2ae0dbdf23ec"
   integrity sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==
@@ -4336,7 +4336,7 @@ reusify@^1.0.4:
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.1.0.tgz#0fe13b9522e1473f51b558ee796e08f11f9b489f"
   integrity sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==
 
-rolldown@~1.2.12:
+rolldown@~1.2.14:
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/rolldown/-/rolldown-1.2.14.tgz#4005c51ae81e1d07b2e0d22f56d1f040f85aac96"
   integrity sha512-eTBTTqMR6uHKLgcUqpJP8ntzDI6V4LYA8negAMBEI7gkgVvOdrx6VsvS2Ym+83KhOPdLCHWJu0w7UQFJZhHKNw==
@@ -5103,15 +5103,15 @@ vite-node@3.2.4:
     pathe "^2.0.3"
     vite "^5.0.0 || ^6.0.0 || ^7.0.0-0"
 
-vite@8.3.4:
-  version "8.3.4"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-8.3.4.tgz#ba08678ba41ba53f41c251b1772946c27b1c874e"
-  integrity sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==
+vite@8.3.5:
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-8.3.5.tgz#9614f66026cb92fe486cb9d3c90780b2a69fc85d"
+  integrity sha512-z1YpjieJ9g0ebTmQpLBv/oq9E3F9EIlOe+7LahW8SrE3LTiG3udBRUXQOlYXP9b+IC2q2phHeVxj9xGlw34OEQ==
   dependencies:
     lightningcss "^1.33.0"
     picomatch "^4.0.7"
-    postcss "^8.5.29"
-    rolldown "~1.2.12"
+    postcss "^8.5.30"
+    rolldown "~1.2.14"
     tinyglobby "^0.2.17"
   optionalDependencies:
     fsevents "~2.3.3"
