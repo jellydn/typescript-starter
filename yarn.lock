@@ -1601,10 +1601,10 @@ cjs-module-lexer@^2.2.1:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-2.3.0.tgz#4eb71c63d5f70f0b1d8a39a595c134a6692493f2"
   integrity sha512-lmNyBzi6iYiqyrExTctfmjd8tInx+dHu9PBomTfH5RXS53c27JMFJgzNv5TyAnm3PgGf+MLy0+Ws41/HlVxdKQ==
 
-clean-pkg-json@1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.4.2.tgz#df935974d5568aad9fe82fe415aee21a2a064d71"
-  integrity sha512-o201s9wWOYoZSRui4QyARSFc3n0IcYDu62hkJCQGX1eshSSQ/90QhS/KveWp/QlXSqcF/g/q2+IINj25V1BMKw==
+clean-pkg-json@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-2.1.0.tgz#cc8814b3eff8320f1be7a9feaf036cf30ce632a8"
+  integrity sha512-bwxSL26Ud/EmAi2a/9+dh+7R5BtKya0ME81otnshTEoAOduNt96G3pqY5NHPXnjHk+FK7khpqxy8nCcDtN+GDQ==
 
 clean-regexp@^1.0.0:
   version "1.0.0"
